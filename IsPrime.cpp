@@ -11,11 +11,11 @@ bool isPrime(int n)
             if(n%i ==0)
             return false;
         }
-        else true;
+        return true;
     }
 }
 
 int main()
 {
-    (isPrime(11)) ? cout<<"YES "<<endl : cout<<"NO "<<endl;
+    (isPrime(59)) ? cout<<"YES "<<endl : cout<<"NO "<<endl;
 }
